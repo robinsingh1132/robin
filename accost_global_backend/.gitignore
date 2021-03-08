@@ -1,0 +1,21 @@
+/node_modules
+/public/hot
+/public/images
+/public/banner
+/public/storage
+/storage/*.key
+/storage/framework/views
+/vendor
+.env
+.env.backup
+.phpunit.result.cache
+Homestead.json
+Homestead.yaml
+npm-debug.log
+yarn-error.log
+/.idea
+# exclude everything
+public/banner/*
+
+# exception to the rule
+!public/banner/.gitkeep

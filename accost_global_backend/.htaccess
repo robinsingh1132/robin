@@ -1,0 +1,11 @@
+Options All -Indexes
+
+<FilesMatch "^\.env">
+    Order allow,deny
+    Deny from all
+</FilesMatch>
+
+<Files composer.json>
+    Order allow,deny
+    Deny from all
+</Files>
